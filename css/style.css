@@ -1,0 +1,37 @@
+body {
+  background: pink;
+  height: 100vh;
+  margin: 0;
+  /*display: flex;*/
+  font-family: Verdana;
+}
+
+h1 {
+  font-weight: 200;
+  color: #ab6b3b;
+}
+
+label, input, button {
+  margin: 5px;
+  font-size: 16px;
+  min-width: 90px;
+  display: inline-block;
+}
+
+button {
+  border: solid 1px white;
+  border-radius: 20px;
+}
+
+#todo {
+  display: none;
+  /*display: block;*/
+}
+
+#divList {
+  margin-left: 20px;
+}
+
+#msg {
+  color: blue;
+}
